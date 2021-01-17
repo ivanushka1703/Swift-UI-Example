@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C61B61125B45E8400D292A6 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61B60F25B45E8400D292A6 /* Tutor.swift */; };
+		2C61B61225B45E8400D292A6 /* Tutor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C61B61025B45E8400D292A6 /* Tutor.xcassets */; };
+		2C61B61525B4614500D292A6 /* TutorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61B61425B4614500D292A6 /* TutorDetail.swift */; };
 		2CAD9F4625B45914002BD8B6 /* Swift_UI_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD9F4525B45914002BD8B6 /* Swift_UI_ExampleApp.swift */; };
 		2CAD9F4825B45914002BD8B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD9F4725B45914002BD8B6 /* ContentView.swift */; };
 		2CAD9F4A25B45915002BD8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAD9F4925B45915002BD8B6 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C61B60F25B45E8400D292A6 /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		2C61B61025B45E8400D292A6 /* Tutor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tutor.xcassets; sourceTree = "<group>"; };
+		2C61B61425B4614500D292A6 /* TutorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetail.swift; sourceTree = "<group>"; };
 		2CAD9F4225B45914002BD8B6 /* Swift UI Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift UI Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAD9F4525B45914002BD8B6 /* Swift_UI_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UI_ExampleApp.swift; sourceTree = "<group>"; };
 		2CAD9F4725B45914002BD8B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,8 +58,11 @@
 		2CAD9F4425B45914002BD8B6 /* Swift UI Example */ = {
 			isa = PBXGroup;
 			children = (
+				2C61B60F25B45E8400D292A6 /* Tutor.swift */,
+				2C61B61025B45E8400D292A6 /* Tutor.xcassets */,
 				2CAD9F4525B45914002BD8B6 /* Swift_UI_ExampleApp.swift */,
 				2CAD9F4725B45914002BD8B6 /* ContentView.swift */,
+				2C61B61425B4614500D292A6 /* TutorDetail.swift */,
 				2CAD9F4925B45915002BD8B6 /* Assets.xcassets */,
 				2CAD9F4E25B45915002BD8B6 /* Info.plist */,
 				2CAD9F4B25B45915002BD8B6 /* Preview Content */,
@@ -128,6 +137,7 @@
 			files = (
 				2CAD9F4D25B45915002BD8B6 /* Preview Assets.xcassets in Resources */,
 				2CAD9F4A25B45915002BD8B6 /* Assets.xcassets in Resources */,
+				2C61B61225B45E8400D292A6 /* Tutor.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CAD9F4825B45914002BD8B6 /* ContentView.swift in Sources */,
+				2C61B61525B4614500D292A6 /* TutorDetail.swift in Sources */,
+				2C61B61125B45E8400D292A6 /* Tutor.swift in Sources */,
 				2CAD9F4625B45914002BD8B6 /* Swift_UI_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
